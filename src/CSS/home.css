@@ -1,19 +1,22 @@
 a {
   color: inherit;
 }
+.head {
+  font-size: 3vw;
+  background-color: indigo;
+  color: #fffff2;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
 
 .table {
   display: flex;
   justify-content: center;
-  font-size: 4vw;
+  font-size: 3.5vw;
   box-sizing: border-box;
-  background-color: #791e94;
-  margin-top: 2%;
-  margin-bottom: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 7%;
-  color: #fffff2;
-  padding-left: 10%;
-  padding-right: 10%;
 }

@@ -3,8 +3,8 @@ import "../CSS/pages.css";
 const Roy = () => {
   return (
     <div className="leag">
-      <h2>Roy Predicted Table</h2>
-      <ol>
+      <h3>Roy Predicted Table</h3>
+      <ol className="tab">
         <li>Manchester City</li>
         <li>Liverpool</li>
         <li>Manchester United</li>

@@ -3,8 +3,8 @@ import "../CSS/pages.css";
 const Tony = () => {
   return (
     <div className="leag">
-      <h2>Tony Predicted Table</h2>
-      <ol>
+      <h3>Tony Predicted Table</h3>
+      <ol className="tab">
         <li>Liverpool</li>
         <li>Manchester City</li>
         <li>Manchester United</li>

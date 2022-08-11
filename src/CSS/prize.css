@@ -1,0 +1,55 @@
+.foot {
+  font-size: 4vw;
+  color: #fffff2;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.ps {
+  font-size: 2vw;
+  color: #fffff2;
+  background-color: indigo;
+  margin: 2%;
+  padding: 2%;
+  width: 20%;
+  border-radius: 20%;
+}
+
+.pps {
+  font-size: 3vw;
+  color: crimson;
+  background-color: gold;
+  margin: 2%;
+  padding: 8%;
+  width: 20%;
+  border-radius: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ps {
+    width: 40%;
+    font-size: 3vw;
+  }
+  .pps {
+    width: 50%;
+    height: 40vw;
+    font-size: 3vw;
+    padding-top: 25%;
+  }
+}

@@ -30,6 +30,8 @@ import Steve from "./pages/Steve";
 import Sullivan from "./pages/Sullivan";
 import Tony from "./pages/Tony";
 import Wilko from "./pages/Wilko";
+import Prize from "./components/Prize";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -66,7 +68,9 @@ function App() {
           <Route path="/Sullivan" element={<Sullivan />} />
           <Route path="/Tony" element={<Tony />} />
           <Route path="/Wilko" element={<Wilko />} />
+          <Route path="/Prize" element={<Prize />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

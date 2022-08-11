@@ -1,12 +1,16 @@
 .leag {
-  font-size: 2vw;
+  font-size: 3.5vw;
   box-sizing: border-box;
-  background-color: #791e94;
+  background-color: indigo;
   margin-top: 2%;
   margin-bottom: 10%;
-  margin-left: 25%;
-  margin-right: 25%;
-  border-radius: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   color: #fffff2;
-  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.tab {
+  text-align: left;
 }

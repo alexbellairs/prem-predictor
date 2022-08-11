@@ -4,8 +4,8 @@ import "../CSS/pages.css";
 const Billy = () => {
   return (
     <div className="leag">
-      <h2>Billy Sullivan Predicted Table</h2>
-      <ol>
+      <h3>Billy Sullivan Predicted Table</h3>
+      <ol className="tab">
         <li>Liverpool</li>
         <li>Manchester City</li>
         <li>Chelsea</li>

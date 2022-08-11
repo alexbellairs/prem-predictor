@@ -3,8 +3,8 @@ import "../CSS/pages.css";
 const Wilko = () => {
   return (
     <div className="leag">
-      <h2>Wilko Predicted Table</h2>
-      <ol>
+      <h3>Wilko Predicted Table</h3>
+      <ol className="tab">
         <li>Manchester City</li>
         <li>Liverpool</li>
         <li>Arsenal</li>
