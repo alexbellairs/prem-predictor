@@ -1,0 +1,214 @@
+import { Link } from "react-router-dom";
+import "../CSS/home.css";
+
+const Home = () => {
+  return (
+    <div className="table">
+      <table>
+        <tr>
+          <th>Posistion</th>
+          <th>Name</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>
+            <Link to="/Paul">Paul Gunning</Link>
+          </td>
+          <td>102</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>
+            <Link to="/Paula">Paula Bridge</Link>
+          </td>
+          <td>104</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>
+            <Link to="/Bennett">Mike Bennett</Link>
+          </td>
+          <td>106</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>
+            <Link to="/Roy">Roy</Link>
+          </td>
+          <td>106</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>
+            <Link to="/JoeG">Joe Godfrey</Link>
+          </td>
+          <td>108</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>
+            <Link to="/Scott">Scott Bromley</Link>
+          </td>
+          <td>108</td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td>
+            <Link to="/Beth">Beth Springer</Link>
+          </td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td>
+            <Link to="/Steve">Steve Lee</Link>
+          </td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td>
+            <Link to="/Wilko">Wilko</Link>
+          </td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>10.</td>
+          <td>
+            <Link to="/DaveT">Dave Tracy</Link>
+          </td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>11.</td>
+          <td>
+            <Link to="/Jason">Jason</Link>
+          </td>
+          <td>110</td>
+        </tr>
+        <tr>
+          <td>12.</td>
+          <td>
+            <Link to="/Springer">Tim Springer</Link>
+          </td>
+          <td>112</td>
+        </tr>
+        <tr>
+          <td>13.</td>
+          <td>
+            <Link to="/Sam">Sam Hazeldine</Link>
+          </td>
+          <td>112</td>
+        </tr>
+        <tr>
+          <td>14.</td>
+          <td>
+            <Link to="/Nick">Nick Cook</Link>
+          </td>
+          <td>112</td>
+        </tr>
+        <tr>
+          <td>15.</td>
+          <td>
+            <Link to="/Adam">Adam Wilkinson</Link>
+          </td>
+          <td>112</td>
+        </tr>
+        <tr>
+          <td>16.</td>
+          <td>
+            <Link to="/EvertonDave">Everton Dave</Link>
+          </td>
+          <td>114</td>
+        </tr>
+        <tr>
+          <td>17.</td>
+          <td>
+            <Link to="/DaveH">Dave Healy</Link>
+          </td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <td>18.</td>
+          <td>
+            <Link to="/Joe">Joe Gunning</Link>
+          </td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <td>19.</td>
+          <td>
+            <Link to="/Tony">Tony</Link>
+          </td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <td>20.</td>
+          <td>
+            <Link to="/Lewis">Lewis Markham</Link>
+          </td>
+          <td>116</td>
+        </tr>
+        <tr>
+          <td>21.</td>
+          <td>
+            <Link to="/JohnB">John Bellairs</Link>
+          </td>
+          <td>118</td>
+        </tr>
+        <tr>
+          <td>22.</td>
+          <td>
+            <Link to="/Sullivan">Tim Sullivan</Link>
+          </td>
+          <td>118</td>
+        </tr>
+        <tr>
+          <td>23.</td>
+          <td>
+            <Link to="/Rick">Rick</Link>
+          </td>
+          <td>118</td>
+        </tr>
+        <tr>
+          <td>24.</td>
+          <td>
+            <Link to="/Billy">Billy Sullivan</Link>
+          </td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>25.</td>
+          <td>
+            <Link to="/Al">Al Markham</Link>
+          </td>
+          <td>122</td>
+        </tr>
+        <tr>
+          <td>26.</td>
+          <td>
+            <Link to="/Chris">Chris Markham</Link>
+          </td>
+          <td>124</td>
+        </tr>
+        <tr>
+          <td>27.</td>
+          <td>
+            <Link to="/George">George Springer</Link>
+          </td>
+          <td>124</td>
+        </tr>
+        <tr>
+          <td>28.</td>
+          <td>
+            <Link to="/DaveM">Dave Moody</Link>
+          </td>
+          <td>124</td>
+        </tr>
+      </table>
+    </div>
+  );
+};
+
+export default Home;
