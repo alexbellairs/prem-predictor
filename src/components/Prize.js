@@ -5,19 +5,19 @@ const Prize = () => {
     <div className="p">
       <div className="ps">
         <h3>Leader At World Cup Break</h3>
-        <h4>£25</h4>
+        <h4>£30</h4>
       </div>
       <div className="pps">
         <h3>First Place</h3>
-        <h4>£150</h4>
+        <h4>£160</h4>
       </div>
       <div className="ps">
         <h3>Second Place</h3>
-        <h4>£75</h4>
+        <h4>£50</h4>
       </div>
       <div className="ps">
-        <h3>Lucky 13th</h3>
-        <h4>£20</h4>
+        <h3>Lucky 14th</h3>
+        <h4>£30</h4>
       </div>
       <div className="ps">
         <h3>Last Place</h3>
