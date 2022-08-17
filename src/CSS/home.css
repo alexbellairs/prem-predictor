@@ -20,3 +20,16 @@ a {
   font-size: 3.5vw;
   box-sizing: border-box;
 }
+
+.first {
+  color: gold;
+}
+.second {
+  color: silver;
+}
+.bogey {
+  color: lime;
+}
+.last {
+  color: red;
+}
