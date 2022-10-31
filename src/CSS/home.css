@@ -20,6 +20,9 @@ a {
   font-size: 3.5vw;
   box-sizing: border-box;
 }
+.table td {
+  border: white solid;
+}
 
 .first {
   color: gold;
