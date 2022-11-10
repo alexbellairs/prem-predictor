@@ -21,7 +21,7 @@ const Home = () => {
             </td>
             <td>68</td>
             <td>0</td>
-            <td></td>
+            <td>1</td>
           </tr>
           <tr className="second">
             <td>2.</td>
