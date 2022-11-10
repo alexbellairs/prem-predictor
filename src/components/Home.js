@@ -262,7 +262,7 @@ const Home = () => {
             <td>
               <Link to="/Lewis">Lewis Markham</Link>
             </td>
-            <td>9</td>
+            <td>90</td>
             <td>-3</td>
             <td>0</td>
           </tr>
