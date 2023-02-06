@@ -6,9 +6,7 @@ const Prize = () => {
       <div className="ps">
         <h3>Leader At World Cup Break</h3>
         <h4>£30</h4>
-        <h3>
-          Winner<br>Paula Bridge</br>
-        </h3>
+        <h3>Winner Paula Bridge</h3>
       </div>
       <div className="pps">
         <h3>First Place</h3>
