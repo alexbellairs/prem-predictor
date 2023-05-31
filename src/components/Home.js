@@ -8,29 +8,29 @@ const Home = () => {
       <div className="table">
         <table>
           <tr>
-            <th>Posistion</th>
+            <th>Position</th>
             <th>Name</th>
             <th>Points</th>
-            <th>Posistion Change</th>
-            <th>Posistions Correct</th>
+            <th>Positions Correct</th>
+            <th>Positions Out By One</th>
           </tr>
           <tr className="first">
             <td>1.</td>
             <td>
-              <Link to="/Adam">Adam Wilkinson</Link>
+              <Link to="/Steve">Steve Lee</Link>
             </td>
             <td>76</td>
-            <td>0</td>
             <td>1</td>
+            <td>4</td>
           </tr>
           <tr className="second">
             <td>2.</td>
             <td>
-              <Link to="/Steve">Steve Lee</Link>
+              <Link to="/Adam">Adam Wilkinson</Link>
             </td>
             <td>76</td>
-            <td>0</td>
             <td>1</td>
+            <td>3</td>
           </tr>
           <tr>
             <td>3.</td>
@@ -38,7 +38,7 @@ const Home = () => {
               <Link to="/Bennett">Mike Bennett</Link>
             </td>
             <td>78</td>
-            <td>0</td>
+            <td>3</td>
             <td>3</td>
           </tr>
           <tr>
@@ -47,8 +47,8 @@ const Home = () => {
               <Link to="/Paula">Paula Bridge</Link>
             </td>
             <td>78</td>
-            <td>0</td>
             <td>2</td>
+            <td>0</td>
           </tr>
           <tr>
             <td>5.</td>
@@ -56,8 +56,8 @@ const Home = () => {
               <Link to="/Wilko">Wilko</Link>
             </td>
             <td>78</td>
-            <td>0</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>6.</td>
@@ -65,8 +65,8 @@ const Home = () => {
               <Link to="/JoeG">Joe Godfrey</Link>
             </td>
             <td>80</td>
-            <td>0</td>
             <td>2</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>7.</td>
@@ -74,8 +74,8 @@ const Home = () => {
               <Link to="/Springer">Tim Springer</Link>
             </td>
             <td>80</td>
-            <td>0</td>
             <td>2</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>8.</td>
@@ -83,16 +83,16 @@ const Home = () => {
               <Link to="/Jason">Jason</Link>
             </td>
             <td>82</td>
-            <td>0</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>9.</td>
             <td>
-              <Link to="/Beth">Beth Springer</Link>
+              <Link to="/Paul">Paul Gunning</Link>
             </td>
             <td>84</td>
-            <td>0</td>
+            <td>2</td>
             <td>2</td>
           </tr>
           <tr>
@@ -101,8 +101,8 @@ const Home = () => {
               <Link to="/JohnB">John Bellairs</Link>
             </td>
             <td>84</td>
-            <td>0</td>
             <td>2</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>11.</td>
@@ -110,26 +110,26 @@ const Home = () => {
               <Link to="/Nick">Nick Cook</Link>
             </td>
             <td>84</td>
-            <td>0</td>
             <td>2</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>12.</td>
             <td>
-              <Link to="/Paul">Paul Gunning</Link>
+              <Link to="/Beth">Beth Springer</Link>
             </td>
             <td>84</td>
-            <td>0</td>
             <td>2</td>
+            <td>0</td>
           </tr>
           <tr>
             <td>13.</td>
             <td>
-              <Link to="/DaveT">Dave Tracy</Link>
+              <Link to="/Sullivan">Tim Sullivan</Link>
             </td>
             <td>84</td>
-            <td>0</td>
             <td>1</td>
+            <td>3</td>
           </tr>
           <tr className="bogey">
             <td>14.</td>
@@ -137,16 +137,16 @@ const Home = () => {
               <Link to="/George">George Springer</Link>
             </td>
             <td>84</td>
-            <td>0</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>15.</td>
             <td>
-              <Link to="/Sullivan">Tim Sullivan</Link>
+              <Link to="/DaveT">Dave Tracy</Link>
             </td>
             <td>84</td>
-            <td>0</td>
+            <td>1</td>
             <td>1</td>
           </tr>
           <tr>
@@ -155,26 +155,26 @@ const Home = () => {
               <Link to="/Rick">Rick</Link>
             </td>
             <td>86</td>
-            <td>0</td>
             <td>3</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>17.</td>
             <td>
-              <Link to="/Billy">Billy Sullivan</Link>
+              <Link to="/Sam">Sam Hazeldine</Link>
             </td>
             <td>86</td>
-            <td>0</td>
             <td>1</td>
+            <td>3</td>
           </tr>
           <tr>
             <td>18.</td>
             <td>
-              <Link to="/Sam">Sam Hazeldine</Link>
+              <Link to="/Billy">Billy Sullivan</Link>
             </td>
             <td>86</td>
-            <td>0</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>19.</td>
@@ -182,8 +182,8 @@ const Home = () => {
               <Link to="/Tony">Tony</Link>
             </td>
             <td>86</td>
-            <td>+2</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>20.</td>
@@ -191,7 +191,7 @@ const Home = () => {
               <Link to="/EvertonDave">Everton Dave</Link>
             </td>
             <td>88</td>
-            <td>-1</td>
+            <td>2</td>
             <td>2</td>
           </tr>
           <tr>
@@ -200,8 +200,8 @@ const Home = () => {
               <Link to="/DaveH">Dave Healy</Link>
             </td>
             <td>88</td>
-            <td>-1</td>
             <td>1</td>
+            <td>0</td>
           </tr>
           <tr>
             <td>22.</td>
@@ -209,7 +209,7 @@ const Home = () => {
               <Link to="/Roy">Roy</Link>
             </td>
             <td>90</td>
-            <td>+1</td>
+            <td>2</td>
             <td>2</td>
           </tr>
           <tr>
@@ -218,8 +218,8 @@ const Home = () => {
               <Link to="/Chris">Chris Markham</Link>
             </td>
             <td>92</td>
-            <td>-1</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>24.</td>
@@ -227,8 +227,8 @@ const Home = () => {
               <Link to="/Al">Al Markham</Link>
             </td>
             <td>94</td>
-            <td>0</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>25.</td>
@@ -236,8 +236,8 @@ const Home = () => {
               <Link to="/Scott">Scott</Link>
             </td>
             <td>94</td>
-            <td>+1</td>
             <td>1</td>
+            <td>2</td>
           </tr>
           <tr>
             <td>26.</td>
@@ -245,8 +245,8 @@ const Home = () => {
               <Link to="/DaveM">Dave Moody</Link>
             </td>
             <td>94</td>
-            <td>-1</td>
             <td>0</td>
+            <td>3</td>
           </tr>
           <tr>
             <td>27.</td>
@@ -254,8 +254,8 @@ const Home = () => {
               <Link to="/Joe">Joe Gunning</Link>
             </td>
             <td>96</td>
-            <td>0</td>
             <td>1</td>
+            <td>0</td>
           </tr>
           <tr className="last">
             <td>28.</td>
@@ -263,7 +263,7 @@ const Home = () => {
               <Link to="/Lewis">Lewis Markham</Link>
             </td>
             <td>98</td>
-            <td>0</td>
+            <td>1</td>
             <td>1</td>
           </tr>
         </table>
